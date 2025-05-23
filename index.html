@@ -4,12 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Con Libertex tradear es más fácil</title>
+  <meta name="description" content="Invierte desde $10 y gana hasta $200 con Libertex. Guía rápida, señales y bono promocional.">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <h1>Con solo invertir desde $10 puedes ganar hasta $200</h1>
-    <p>Entra aqui👇</p>
+    <p style="font-size: 1.4em; color: #ffc107;">Entra aquí👇</p>
     <a href="https://app.libertex.org/goto/raf2?rid=13177005" class="cta-animated-btn" target="_blank">
       ¡Sigue los pasos y comienza a ganar!
     </a>
@@ -85,16 +86,15 @@
     const jsonBinMasterKey = "$2a$10$I7hNfnunxNEJcGzxDK1FKON0j6z8F6pKkHvrEpxmTY.SINSjedb06";
     const jsonBinAccessKey = "$2a$10$ooL0KV4Ftd6YOcL1X0/I2OTNSg6tcZuEM9ksAgp9AIHLctg1ZsHuS";
 
-    // Grupos con mezcla aleatoria de activos: Forex, Cripto y Acciones
     const assetGroups = [
       ["FX:EURUSD", "BINANCE:BTCUSDT", "NASDAQ:AAPL"],
       ["FX:GBPUSD", "BINANCE:ETHUSDT", "NYSE:TSLA"],
       ["FX:USDJPY", "BINANCE:XRPUSDT", "NYSE:AMZN"],
-      ["FOREX:USDCHF", "CRYPTO:DOTUSDT", "NASDAQ:MSFT"],
-      ["FOREX:USDCAD", "CRYPTO:LTCUSDT", "NYSE:GOOGL"]
+      ["FOREX:USDCHF", "BINANCE:DOTUSDT", "NASDAQ:MSFT"],
+      ["FOREX:USDCAD", "BINANCE:LTCUSDT", "NYSE:GOOGL"]
     ];
 
-    const intervalMs = 4 * 60 * 60 * 1000; // 4 horas
+    const intervalMs = 4 * 60 * 60 * 1000;
 
     async function fetchCurrentIndex() {
       try {
