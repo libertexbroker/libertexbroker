@@ -6,6 +6,13 @@ body {
   color: #333;
 }
 
+header p {
+  font-size: 1.8em;
+  color: #ffbb00; /* Puedes cambiar a otro color si prefieres */
+  margin-top: 0.5em;
+}
+
+
 header {
   text-align: center;
   padding: 2em;
@@ -78,4 +85,3 @@ header {
   font-size: 1.5em;
   color: #0d47a1;
 }
-
